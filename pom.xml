@@ -623,7 +623,7 @@
     <tcnative.artifactId>netty-tcnative</tcnative.artifactId>
     <!-- Keep in sync with bom/pom.xml -->
     <tcnative.version>2.0.61.Final</tcnative.version>
-    <tcnative.classifier>${os.detected.classifier}</tcnative.classifier>
+    <tcnative.classifier></tcnative.classifier>
     <conscrypt.groupId>org.conscrypt</conscrypt.groupId>
     <conscrypt.artifactId>conscrypt-openjdk-uber</conscrypt.artifactId>
     <conscrypt.version>2.5.2</conscrypt.version>
@@ -695,6 +695,7 @@
     <module>transport-blockhound-tests</module>
     <module>microbench</module>
     <module>bom</module>
+    <module>netty-demo</module>
   </modules>
 
   <dependencyManagement>
